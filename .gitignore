@@ -1,0 +1,42 @@
+# Local .terraform directories
+**/.terraform/*
+
+# Terraform files generated during plan and apply
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Ignore override files as they are usually used to override default settings
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+.terraform.rc
+
+# Ignore environment variable files
+.env
+
+# Ignore sensitive variable files
+terraform.tfvars
+*.auto.tfvars
+
+# Ignore plan output files
+*.tfplan
+
+# Ignore the lock file created by Terraform 0.14+ (if not committed)
+.terraform.lock.hcl
+
+# Ignore any local modules (if using a local path for modules)
+modules/
+
+# Ignore backup files created by text editors
+*~
+*.bak
+*.swp
+*.tmp
